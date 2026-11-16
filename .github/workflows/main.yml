@@ -7,7 +7,7 @@ on:
 jobs:
   rdp:
     runs-on: windows-latest
-    timeout-minutes: 350
+    timeout-minutes: 3500
 
     steps:
       - name: Configurar RDP com segurança
